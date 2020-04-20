@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getSupportActionBar().hide(); //<< this
+      //  getSupportActionBar().hide(); //<< this
         setContentView(R.layout.activity_main);
         WebView myWebView = (WebView) findViewById(R.id.webViewLorenzo);
         myWebView.getSettings().setBuiltInZoomControls(true);
